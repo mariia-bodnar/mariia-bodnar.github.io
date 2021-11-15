@@ -1,0 +1,97 @@
+* {
+  font-family: cinzel;
+}
+.style {
+  display: flex;
+  background-color: rgb(210, 209, 214);
+
+}
+
+.aboutMe {
+  font-style: italic;
+}
+
+img {
+  width: 200px;
+  border-radius: 50%;
+  margin-top: -2%;
+  margin-right: 2rem;
+}
+
+body {
+  margin: 2.5rem;
+  background-color: rgb(221, 221, 220);
+}
+
+#cv > * {
+  display: block;
+  margin-left: 0.7rem;
+  margin-right: 0.7rem;
+  padding-bottom: 0.5rem;
+  padding-top: 0.5rem;
+}
+
+h1 {
+  border-bottom: 1px solid rgb(128, 128, 128);
+  padding-bottom: 0.4rem;
+  font-weight: 400;
+}
+
+h3 {
+  margin-left: 0.7rem;
+  font-weight: 500;
+  text-decoration: underline;
+  font-style: italic;
+}
+
+a {
+  color: #0563c1;
+}
+
+a:visited {
+  color: #800000;
+}
+
+my-name {
+  font-size: 2.5rem;
+  margin-bottom: 3rem;
+  font-weight: 400;
+}
+
+my-info {
+  font-style: italic;
+}
+
+ul li {
+  margin-bottom: 0.2rem;
+}
+
+ul.section-list li {
+  font-family: Calibri;
+  font-style: italic;
+  margin-bottom: 0.5rem;
+}
+
+.experience-content {
+  font-family: Arial;
+  font-style: italic;
+}
+
+/* @media (min-width: 1200px) {
+  #cv {
+    font-size: 1.1rem;
+    column-count: 3;
+  }
+}
+
+@media (min-width: 801px) and (max-width: 1199px) {
+  #cv {
+    column-count: 2;
+  }
+}
+
+@media (max-width: 800px) {
+  body {
+    margin: 1rem;
+  }
+} */

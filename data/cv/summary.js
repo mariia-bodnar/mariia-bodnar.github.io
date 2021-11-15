@@ -1,0 +1,2 @@
+export default `<p class="aboutMe"> I am self-taught developer. Studied with youtube videos and interactive app (Sololearn) and udemy courses (React - The Complete Guide (incl Hooks, React Router, Redux) by Maximilian Schwarzmüller). Know css flexbox and css grid. Fully motivated to study and improve my skills.</p>
+`
