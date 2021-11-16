@@ -8,7 +8,6 @@ const myName = document.createElement("my-name");
 const myInfo = document.createElement("my-info");
 const mySummary = document.createElement("my-summary");
 const mySkills = document.createElement("my-skills");
-const myExperience = document.createElement("my-experience");
 
 // name section
 myName.innerHTML += data.name;
@@ -95,5 +94,5 @@ data.experience.forEach(({ title, content }) => {
 myExperience.appendChild(experienceContainter);
 
 if (data.experience.length) {
-  cv.appendChild(myExperience);
+  cv.appendChild(myExperience)
 }
