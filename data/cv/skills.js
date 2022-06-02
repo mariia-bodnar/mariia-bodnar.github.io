@@ -29,7 +29,9 @@ export default [
   {
     name: "Backend",
     sections: [
-      items: ["PHP (templating)"]
+      {
+        items: ["PHP (templating)"]
+      }
     ]
   },
   {
