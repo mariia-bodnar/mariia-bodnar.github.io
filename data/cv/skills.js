@@ -7,7 +7,8 @@ export default [
           "HTML/HTML5",
           "CSS/CSS3 (incl. Flexbox and CSS grid)",
           "JavaScript(ESNext)",
-          "SCSS/SASS",
+          "jQuery",
+          "php",
           "Figma"
         ]
       },

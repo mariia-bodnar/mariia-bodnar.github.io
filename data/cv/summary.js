@@ -6,6 +6,9 @@ export default `
   
 </p>
 <p class="aboutMe">
+I have been working as a frontend delevoper for six months. 
+For the most part, I worked independently on projects, create website and connection the CRM system using php .
+But I want study and work with more modern technologis.
 Previously, I studied at a medical university and worked as a doctor.
 I like self-development and learning something new.
 Fully motivated to study and improve my skills.
