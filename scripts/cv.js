@@ -8,6 +8,7 @@ const myName = document.createElement("my-name");
 const myInfo = document.createElement("my-info");
 const mySummary = document.createElement("my-summary");
 const mySkills = document.createElement("my-skills");
+const myExperience = document.createElement("my-experience");
 
 // name section
 myName.innerHTML += data.name;
@@ -72,6 +73,25 @@ data.skills.forEach(({ name, sections }) => {
 mySkills.appendChild(skillSectionsContainer);
 cv.appendChild(mySkills);
 
+// experience section
+myExperience.innerHTML = "<h1>EXPERIENCE</h1>";
+const experienceContainter = document.createElement("div");
+experienceContainter.classList.add("section-container", "experience-section-container");
 
+data.experience.forEach(({ title, content }) => {
+  const experienceItem = document.createElement("div");
 
+  const experienceTitle = document.createElement("h2");
+  experienceTitle.innerText = `${title}:`;
+  experienceItem.appendChild(experienceTitle);
 
+  const experienceContent = document.createElement("div");
+  experienceContent.classList.add("experience-content");
+  experienceContent.innerHTML = content;
+  experienceItem.appendChild(experienceContent);
+
+  experienceContainter.appendChild(experienceItem);
+});
+
+myExperience.appendChild(experienceContainter);
+cv.appendChild(myExperience);
