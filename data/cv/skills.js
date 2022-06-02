@@ -8,7 +8,6 @@ export default [
           "CSS/CSS3 (incl. Flexbox and CSS grid)",
           "JavaScript(ESNext)",
           "jQuery",
-          "php",
           "Figma"
         ]
       },
@@ -28,11 +27,18 @@ export default [
     ]
   },
   {
+    name: "Backend",
+    sections: [
+      items: ["PHP (templating)"]
+    ]
+  },
+  {
     name: "Management & Tracking",
     sections: [
       {
         items: [
           "Git (GitHub)",
+          "JIRA"
         ]
       },
     ]
